@@ -1,0 +1,46 @@
+# Inputs and generated artifacts belong in ANGIOTDA_WORKSPACE, outside this repo.
+/data/
+/reports/
+/results/
+/logs/
+/checkpoints/
+/outputs/
+/output/
+/artifacts/
+/workspace/
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.tif
+*.tiff
+*.parquet
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.pdf
+*.log
+*.jsonl
+*.json
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+passwd
+hf_token
+*.pem
+*.key
+# Python and editors
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.DS_Store
+.vscode/
+.idea/

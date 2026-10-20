@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite the WACV 2027 paper when using this code."
+type: software
+title: "AngioTDA: Graph-Based Self-Supervised Contrastive Learning for Phenotypic Drug-Screen Profiling"
+version: 0.2.0
+repository-code: "https://github.com/mahmoudgamal0/AngioTDA"
+authors:
+  - family-names: Gamal
+    given-names: Mahmoud
+  - family-names: Alzubaidi
+    given-names: Mahmood
+  - family-names: Shah
+    given-names: Uzair
+  - family-names: Al Haj Zen
+    given-names: Ayman
+  - family-names: Agus
+    given-names: Marco
+preferred-citation:
+  type: conference-paper
+  title: "Graph-Based Self-Supervised Contrastive Learning for Phenotypic Drug-Screen Profiling"
+  year: 2027
+  collection-title: "IEEE/CVF Winter Conference on Applications of Computer Vision"
+  authors:
+    - family-names: Gamal
+      given-names: Mahmoud
+    - family-names: Alzubaidi
+      given-names: Mahmood
+    - family-names: Shah
+      given-names: Uzair
+    - family-names: Al Haj Zen
+      given-names: Ayman
+    - family-names: Agus
+      given-names: Marco

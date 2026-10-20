@@ -1,0 +1,29 @@
+architecture: gps
+run_prefix: gps
+seeds:
+- 0
+- 1
+- 2
+folds:
+- 0
+- 1
+- 2
+- 3
+- 4
+split: splits/compound_folds_seed42.json
+training:
+  epochs: 500
+  batch_compounds: 64
+  hidden: 256
+  layers: 4
+  embed_dim: 128
+  temperature: 0.07
+  lr_min: 1.0e-06
+  weight_decay: 0.05
+  warmup_steps: 1000
+  grad_clip: 1.0
+  node_dropout: 0.1
+  edge_dropout: 0.05
+  biology_alignment: none
+  precision: fp32_objective
+  lr: 0.0001

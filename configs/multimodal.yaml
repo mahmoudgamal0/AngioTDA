@@ -1,0 +1,30 @@
+architecture: four_view_repeat
+run_prefix: four_view_repeat
+seeds:
+- 0
+- 1
+- 2
+folds:
+- 0
+- 1
+- 2
+- 3
+- 4
+split: splits/compound_folds_seed42.json
+training:
+  epochs: 500
+  batch_compounds: 16
+  img_size: 224
+  embed_dim: 128
+  model_type: dinov3_vits16
+  graph_layers: 4
+  graph_hidden: 256
+  temperature: 0.07
+  image_weight: 1.0
+  graph_weight: 1.0
+  cross_modal_weight: 1.0
+  lr_image: 1.0e-05
+  lr_graph: 0.0005
+  weight_decay: 0.05
+  warmup_steps: 500
+  grad_clip: 1.0
